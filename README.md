@@ -59,6 +59,18 @@ This project was developed as part of a **Python for Data Engineering** course. 
 
 ---
 
+## 🔁 Sample Output Queries
+
+- **SELECT * FROM Largest_banks**
+
+- Get average market cap in GBP:
+**SELECT AVG(MC_GBP_Billion) FROM Largest_banks**
+
+- Get names of first 5 banks:
+**SELECT Name FROM Largest_banks LIMIT 5**
+
+---
+
 ## ▶️ How to Run
 
 1. **Clone the repository**  
@@ -76,3 +88,7 @@ This project was developed as part of a **Python for Data Engineering** course. 
 - from datetime import datetime
 - import Sqlite3
 
+---
+## 🙋 Author
+- **PhD Candidate in Applied Mathematics Gael Dimitri Tekam Fongouo**
+- **Feel free to connect with me on LinkedIn or explore more of my projects on GitHub**
