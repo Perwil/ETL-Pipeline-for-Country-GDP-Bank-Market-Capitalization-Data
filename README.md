@@ -29,3 +29,36 @@ This project was developed as part of a **Python for Data Engineering** course. 
 
 ## 🗂️ Project Structure
 
+
+---
+
+## 💻 Technologies Used
+
+- **Python** 🐍
+- **Pandas & NumPy** — For data wrangling and numeric operations
+- **Requests & BeautifulSoup** — For web scraping HTML content
+- **SQLite3** — Lightweight SQL database for data persistence
+- **datetime** — For timestamp logging
+
+---
+
+## 🔁 ETL Pipeline Flow
+
+| Step         | Description                                                                 |
+|--------------|-----------------------------------------------------------------------------|
+| **Extract**  | Bank data is scraped from an archived Wikipedia page listing the largest banks by market cap. |
+| **Transform**| Market capitalization in USD is converted into GBP, EUR, and INR using exchange rates from a local CSV. |
+| **Load**     | The final dataset is saved to both a `.csv` file and a SQLite database.     |
+| **Query**    | SQL queries are executed to inspect data and derive summaries (e.g., average market cap in GBP). |
+| **Logging**  | Each ETL stage is logged into `code_log.txt` with a timestamp.              |
+
+---
+
+## ▶️ How to Run
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/yourusername/your-etl-project.git
+   cd your-etl-project
+
+
