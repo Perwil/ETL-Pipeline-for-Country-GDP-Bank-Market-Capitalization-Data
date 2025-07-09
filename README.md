@@ -29,6 +29,11 @@ This project was developed as part of a **Python for Data Engineering** course. 
 
 ## 🗂️ Project Structure
 
+- ├── **exchange_rate.csv** — Exchange rates for currency conversion
+- ├── **ETL_script.py** — Main ETL logic in Python
+- ├── **Largest_banks_data.csv** — Final transformed dataset
+- ├── **World_Economies.db** — SQLite database with loaded data
+- └── **code_log.txt** — Log file tracking ETL process execution
 
 ---
 
@@ -58,5 +63,16 @@ This project was developed as part of a **Python for Data Engineering** course. 
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/yourusername/your-etl-project.git
+   git clone https://github.com/yourusername/Banks_project.git
    cd your-etl-project
+
+---
+
+## ▶️ Ensures dependencies are installed
+- pip install pandas numpy requests beautifulsoup4
+- pip install numpy
+- import requests
+- import BeautifulSoup
+- from datetime import datetime
+- import Sqlite3
+
