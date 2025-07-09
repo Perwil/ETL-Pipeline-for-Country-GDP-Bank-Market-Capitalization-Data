@@ -60,5 +60,3 @@ This project was developed as part of a **Python for Data Engineering** course. 
    ```bash
    git clone https://github.com/yourusername/your-etl-project.git
    cd your-etl-project
-
-
